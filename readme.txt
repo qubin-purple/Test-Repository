@@ -4,4 +4,5 @@
 在库中添加文件      $ git add readme.txt
 提交修改            $ git commit -m add file readme.txt
 查看修改            $ git diff readme.txt
+向远程库推送修改    $ git push -u origin master
 
