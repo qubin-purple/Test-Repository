@@ -6,4 +6,9 @@
 查看修改            $ git diff readme.txt
 向远程库推送修改    $ git push -u origin master
 查看提交记录        $ git log --pretty
+更新到历史版本，回溯到当前版本的上一个版本，Head当前版本      $ git reset --hard Head~1
+查看所有历史版本    $ git relog
+更新到某一历史版本  $ git reset --hard commit_id
+查看文件            $ cat readme.txt
+
 
